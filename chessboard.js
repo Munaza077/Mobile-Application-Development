@@ -10,7 +10,7 @@ const ChessBoard = () => {
         key={`${x}-${y}`}
         style={[
           styles.square,
-          { backgroundColor: isEven ? '#d18b47' : '#ffce9e' },
+          { backgroundColor: isEven ? 'white' : 'black' },
         ]}
       />
     );
